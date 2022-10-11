@@ -28,7 +28,7 @@ This should get you set up to start configuring the software
 (Make sure you are inside the same directory as above)
 
 ``` Bash
-$ echo 'server_names = [\'quad9-dnscrypt-ip4-filter-pri\']' >> $HOME/dnscrypt-proxy/dnscrypt-proxy.toml
+$ echo "server_names = ['quad9-dnscrypt-ip4-filter-pri']" >> $HOME/dnscrypt-proxy/dnscrypt-proxy.toml
 ```
 There are other server options on the webpage: [DNSCrypt-proxy server list](https://dnscrypt.info/public-servers/). You can choose one and replace the text inside **server_names**
 
